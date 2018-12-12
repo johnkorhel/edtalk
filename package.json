@@ -1,0 +1,23 @@
+{
+  "name": "edtalk",
+  "version": "1.0.0",
+  "description": "a simple communication platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "JOJ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "nodejs": "*",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
