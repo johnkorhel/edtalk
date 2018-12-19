@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('http://10.83.29.52:4000');
+var socket = io.connect('http://10.83.23.13:4000');
 
 // Query DOM
 var message = document.getElementById('message'),
@@ -9,30 +9,29 @@ var message = document.getElementById('message'),
   userBtn = document.getElementById('usernameButton');
 
 
-  userBtn.addEventListener('click', function(){
-    while (document.getElementById("username").value == "") {
-        return false;
-    };
+userBtn.addEventListener('click', function() {
+  while (document.getElementById("username").value == "") {
+    return false;
+  };
+  username = document.getElementById("username").value;
+  $('#usernameModal').modal('hide');
+});
+
+username.addEventListener('keypress', function(e) {
+  while (document.getElementById("username").value == "") {
+    return false;
+  };
+  var key = e.which || e.keyCode;
+  if (key === 13) {
     username = document.getElementById("username").value;
     $('#usernameModal').modal('hide');
-  });
-
-  username.addEventListener('keypress', function(e) {
-    while (document.getElementById("username").value == "") {
-        return false;
-    };
-    var key = e.which || e.keyCode;
-    if (key === 13) {
-      username = document.getElementById("username").value;
-      $('#usernameModal').modal('hide');
-      output.innerHTML += '<h2 class="animated fadeIn userText" id="userText"> <span id="userJoin">' + username + ',</span> welcome to the discussion!</h2>' + '<hr></hr>';
-    }
-  });
+  }
+});
 
 
 btn.addEventListener('click', function() {
   while (document.getElementById("message").value == "") {
-      return false;
+    return false;
   };
   socket.emit('chat', {
     message: message.value,
@@ -43,7 +42,7 @@ btn.addEventListener('click', function() {
 
 message.addEventListener('keypress', function(e) {
   while (document.getElementById("message").value == "") {
-      return false;
+    return false;
   };
   var key = e.which || e.keyCode;
   if (key === 13) {
@@ -56,5 +55,7 @@ message.addEventListener('keypress', function(e) {
 });
 // Listen for events
 socket.on('chat', function(data) {
-  output.innerHTML += '<h2 class="animated fadeIn userText" id="userText"> <span id="user">' + data.username + '</span>: ' + data.message + '</h2>' + '<hr></hr>';
+  output.innerHTML +=
+    '<h2 class="animated fadeIn userText" id="userText"> <span id="user">' +
+    data.username + '</span>: ' + data.message + '</h2>' + '<hr></hr>';
 });
