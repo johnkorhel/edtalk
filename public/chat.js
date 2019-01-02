@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('http://10.83.23.13:4000');
+var socket = io.connect('http://localhost:4000');
 
 // Query DOM
 var message = document.getElementById('message'),
@@ -23,6 +23,7 @@ username.addEventListener('keypress', function(e) {
   };
   var key = e.which || e.keyCode;
   if (key === 13) {
+    event.preventDefault();
     username = document.getElementById("username").value;
     $('#usernameModal').modal('hide');
   }
@@ -46,6 +47,7 @@ message.addEventListener('keypress', function(e) {
   };
   var key = e.which || e.keyCode;
   if (key === 13) {
+    event.preventDefault();
     socket.emit('chat', {
       message: message.value,
       username: username
