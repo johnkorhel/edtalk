@@ -159,6 +159,12 @@ body.modal-open .modal[style]:not([style='display: none;']) .modal-dialog {
     font-size: 15px;
     font-family: 'Open Sans';
 }
+.textFaded {
+    border-radius: 0px !important;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #9e9e9e;
+}
 
 #user {
     color: #64b5f6;
