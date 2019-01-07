@@ -70,6 +70,6 @@ message.addEventListener('keypress', function(e) {
 // Listen for events
 socket.on('chat', function(data) {
   output.innerHTML +=
-    '<h2 class="animated fadeIn userText" id="userText"> <span id="user">' +
-    data.username + '</span>: ' + data.message + '</h2>' + '<hr class="animated fadeIn"></hr>';
+    '<h2 class="userText" id="userText"> <span id="user">' +
+    data.username + '</span>: ' + data.message + '</h2>' + '<hr class=""></hr>';
 });
