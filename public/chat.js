@@ -1,6 +1,10 @@
 // Make connection
 var socket = io.connect('http://localhost:4000');
 
+window.onbeforeunload = function(){
+  return 'Are you sure you want to leave?';
+};
+
 // Query DOM
 var message = document.getElementById('message'),
   btn = document.getElementById('send'),
