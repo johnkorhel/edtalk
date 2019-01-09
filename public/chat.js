@@ -11,7 +11,9 @@ var message = document.getElementById('message'),
   output = document.getElementById('output'),
   username = document.getElementById('username'),
   userBtn = document.getElementById('usernameButton'),
-  titleBar = document.getElementById('chatUserTitle');
+  titleBar = document.getElementById('chatUserTitle'),
+  roomNum = Math.floor(Math.random()*90000) + 10000,
+  roomID = roomNum.toString();
 
 //Listen for click on username prompt and populate username value
 userBtn.addEventListener('click', function() {
@@ -20,7 +22,7 @@ userBtn.addEventListener('click', function() {
   };
   username = document.getElementById("username").value;
   $('#usernameModal').modal('hide');
-  titleBar.innerHTML += '<h2 class="animated fadeIn chatTitle">' + document.getElementById("username").value + '| Socratic Seminar</h2>';
+  titleBar.innerHTML += '<h2 class="animated fadeIn chatTitle">' + document.getElementById("username").value + ' | Socratic Seminar | Room ID: ' + roomID + '</h2>';
   output.innerHTML += '<h1 class="textFaded">' + document.getElementById("username").value + ', welcome to the discussion!</h1><hr class="animated fadeIn"></hr>';
 });
 
