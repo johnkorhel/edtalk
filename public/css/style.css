@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 
-.btnStart {
+.btnRegister {
     color: white;
     background-color: #087E8B;
 }
@@ -28,7 +28,7 @@
     background-color: #F2B485;
 }
 
-.btnHelp:hover, .btnStart:hover, .btnJoin:hover, .btnTeacher:hover, .btnHelp:hover {
+.btnHelp:hover, .btnRegister:hover, .btnJoin:hover, .btnTeacher:hover, .btnHelp:hover {
     color: #fff !important;
     text-decoration: none;
 }

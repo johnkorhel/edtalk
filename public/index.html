@@ -38,65 +38,64 @@
       <h1 class="subHeaderText">a simple classroom communication platform for the modern student and educator</h1>
       <br>
       <div class="hidden-xs">
-        <button type="button" class="splashBtn btn btnStart" data-toggle="modal" data-target="#startConvo" data-backdrop="static" data-keyboard="false">Start a Conversation</button>
-        <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#joinConvo" data-backdrop="static" data-keyboard="false">Join a Conversation</button>
+        <button type="button" class="splashBtn btn btnRegister" data-toggle="modal" data-target="#register" data-backdrop="static" data-keyboard="false">Register</button>
+        <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false">Login</button>
         <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat.html';" data-backdrop="static" data-keyboard="false">Help</button>
       </div>
       <div class="btn-group-vertical visible-xs">
-        <button type="button" class="splashBtn btn btnStart" data-toggle="modal" data-target="#startConvo" data-backdrop="static" data-keyboard="false">Start a Conversation</button>
-        <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#joinConvo" data-backdrop="static" data-keyboard="false">Join a Conversation</button>
+        <button type="button" class="splashBtn btn btnRegister" data-toggle="modal" data-target="#register" data-backdrop="static" data-keyboard="false">Register</button>
+        <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false">Login</button>
         <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat.html';" data-backdrop="static" data-keyboard="false">Help</button>
       </div>
 
     </div>
 
   </div>
-  <!-- Modal -->
-  <div class="modal introModal animated fade" id="startConvo" tabindex="-1" role="dialog" aria-labelledby="startConvo" aria-hidden="true">
+  <!-- Register -->
+  <div class="modal introModal animated fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
     <img class="exitIcon animated fadeIn close" data-dismiss="modal" src="exit.svg">
     <div class="modal-dialog" role="document">
       <div class="modal-content introModalContent splashBtn">
-
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Room name</label>
-              <input type="text" class="form-control" id="" aria-describedby="userHelp" placeholder="Enter Username">
-              <small id="emailHelp" class="form-text text-muted">Use a room name that reflects the discussion topic.</small>
+              <label for="fn">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="John">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Username</label>
-              <input type="text" class="form-control" id="" aria-describedby="userHelp" placeholder="Enter Username">
+              <label for="ln">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Smith">
             </div>
             <div class="form-group">
-              <label for="profanityCheck">Profanity Control</label>
+              <label for="school">School</label>
               <br>
               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
-                <option value="1">Enable</option>
-                <option value="2">Disable</option>
-
+                <option selected="selected" value="0">Legend High School</option>
+                <option value="1">Chapparall High School</option>
+                <option value="2">Ponderosa High School</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Maximum Users</label>
-              <input class="form-control" type="number" value="0" max="50" min="0" id="example-number-input">
+              <label for="un">Username</label>
+              <input type="text" class="form-control" id="username" placeholder="Choose a username">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Theme</label>
+              <label for="pw">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Choose a password">
+            </div>
+            <div class="form-group">
+              <label for="pwc">Confirm password</label>
+              <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirm password">
+            </div>
+            <div class="form-group">
+              <label for="stued">I am a...</label>
               <br>
               <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
-                <option disabled="disabled" selected="selected">Select</option>
-                <option value="2" style="color:#90caf9">Blue</option>
-                <option value="2" style="color:#ef9a9a">Red</option>
-                <option value="2" style="color:#a5d6a7">Green</option>
-                <option value="2" style="color:#ce93d8">Purple</option>
-                <option value="2" style="color:#000000">Black</option>
-                <option value="2" style="color:#ffcc80">Orange</option>
-
+                <option selected="selected" value="0">Student</option>
+                <option value="1">Educator</option>
               </select>
-              <br>
-              <br>
-              <button type="button" class="btn btn-block btnStart splashBtn">Create</button>
+              <br><br>
+              <button type="button" class="btn btn-block btnRegister splashBtn">Register</button>
             </div>
         </div>
         </form>
@@ -104,8 +103,9 @@
     </div>
   </div>
   </div>
-  <!-- Modal -->
-  <div class="modal animated fade introModal" id="joinConvo" tabindex="-1" role="dialog" aria-labelledby="joinConvo" aria-hidden="true">
+
+  <!-- Login -->
+  <div class="modal animated fade introModal" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
     <img class="exitIcon animated fadeIn close" data-dismiss="modal" src="exit.svg">
     <div class="modal-dialog" role="document">
       <div class="modal-content introModalContent splashBtn">
@@ -114,14 +114,13 @@
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Username</label>
-              <input type="text" class="form-control" id="" aria-describedby="userHelp" placeholder="Enter Username">
-              <small id="emailHelp" class="form-text text-muted">Please remember to use a school-appropriate username.</small>
+              <input type="text" class="form-control" id="loginUser" placeholder="Enter your username">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Room ID</label>
-              <input type="text" class="form-control" id="" aria-describedby="roomIDHelp" placeholder="Enter Room ID">
+              <label for="exampleInputEmail1">Password</label>
+              <input type="password" class="form-control" id="loginPw" placeholder="Enter your password">
               <br>
-              <button type="button" class="btn btn-block btnJoin splashBtn">Join</button>
+              <button type="button" class="btn btn-block btnJoin splashBtn">Login</button>
             </div>
           </form>
         </div>
@@ -137,6 +136,5 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 </body>
-<script src="/chat.js"></script>
 
 </html>
