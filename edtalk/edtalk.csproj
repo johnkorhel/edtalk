@@ -17,13 +17,12 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\Startup.cs" />
+    <Content Remove="Hubs\ChatHub.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="wwwroot\Startup.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Hubs\ChatHub.cs">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
+    <Folder Include="Hubs\" />
   </ItemGroup>
 </Project>

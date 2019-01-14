@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{57DBF06B-2728-4E22-ADDF-9952B99280BB}|Default">
   <MonoDevelop.Ide.ItemProperties.edtalk PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/wwwroot/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/wwwroot/js/chat.js">
     <Files>
-      <File FileName="edtalk/wwwroot/Startup.cs" Line="13" Column="1" />
-      <File FileName="edtalk/Hubs/ChatHub.cs" Line="6" Column="31" />
+      <File FileName="edtalk/wwwroot/js/chat.js" Line="10" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
