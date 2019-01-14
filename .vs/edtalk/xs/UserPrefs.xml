@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{57DBF06B-2728-4E22-ADDF-9952B99280BB}|Default">
+  <MonoDevelop.Ide.ItemProperties.edtalk PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/wwwroot/js/chat.js">
+    <Files>
+      <File FileName="edtalk/wwwroot/js/chat.js" Line="10" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
