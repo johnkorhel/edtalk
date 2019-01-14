@@ -1,6 +1,0 @@
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csprojAssemblyReference.cache
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CoreCompileInputs.cache
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorAssemblyInfo.cache
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorAssemblyInfo.cs
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.AssemblyInfoInputs.cache
-/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.AssemblyInfo.cs

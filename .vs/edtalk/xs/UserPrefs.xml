@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.edtalk PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/wwwroot/Startup.cs">
     <Files>
-      <File FileName="edtalk/wwwroot/Startup.cs" Line="15" Column="2" />
-      <File FileName="edtalk/Hubs/ChatHub.cs" Line="10" Column="9" />
+      <File FileName="edtalk/wwwroot/Startup.cs" Line="13" Column="1" />
+      <File FileName="edtalk/Hubs/ChatHub.cs" Line="6" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
