@@ -19,13 +19,7 @@
     <Content Remove="wwwroot\Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="Hubs\ChatHub.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="wwwroot\Startup.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Hubs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hubs\ChatHub.cs">
