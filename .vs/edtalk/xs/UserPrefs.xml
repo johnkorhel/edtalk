@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{57DBF06B-2728-4E22-ADDF-9952B99280BB}|Default">
   <MonoDevelop.Ide.ItemProperties.edtalk PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/wwwroot/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="edtalk/Pages/Index.cshtml">
     <Files>
-      <File FileName="edtalk/wwwroot/js/chat.js" Line="14" Column="12" />
-      <File FileName="edtalk/Pages/Index.cshtml" Line="1" Column="1" />
-      <File FileName="edtalk/Hubs/ChatHub.cs" Line="8" Column="15" />
-      <File FileName="edtalk/wwwroot/Startup.cs" Line="17" Column="6" />
+      <File FileName="edtalk/wwwroot/js/chat.js" Line="10" Column="35" />
+      <File FileName="edtalk/Hubs/ChatHub.cs" Line="10" Column="72" />
+      <File FileName="edtalk/wwwroot/Startup.cs" Line="12" Column="19" />
+      <File FileName="edtalk/Pages/Index.cshtml" Line="9" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
