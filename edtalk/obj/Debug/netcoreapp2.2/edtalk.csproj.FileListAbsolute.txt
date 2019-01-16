@@ -57,3 +57,4 @@ C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.dll
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.pdb
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CopyComplete
+/home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csprojAssemblyReference.cache
