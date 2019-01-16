@@ -5,9 +5,9 @@ namespace edtalk.Hubs
 {
     public class ChatHub : Hub
     {
-        public async Task SendMessage(string user, string message, int room)
+        public async Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message, room);
+            await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
     }
 }
