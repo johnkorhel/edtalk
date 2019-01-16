@@ -9,12 +9,12 @@ namespace edtalk.Hubs
         public async Task Connect(string username, string room)
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, room);
-            await Clients.Group(room).SendAsync("NewUser", $"{username} has joined the group chat");
+            await Clients.Group(room).SendAsync("NewUser", username);
         }
         public async Task Disconnect(string username, string room)
         {
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, room);
-            await Clients.Group(room).SendAsync("GoneUser", $"{username} has left the group chat");
+            await Clients.Group(room).SendAsync("GoneUser", username);
         }
         //****************************************************
 
@@ -22,11 +22,11 @@ namespace edtalk.Hubs
         //****************************************************
         public async Task Active(string username, string room)
         {
-            await Clients.Group(room).SendAsync("ActiveUser", $"{username} has become active");
+            await Clients.Group(room).SendAsync("ActiveUser", username);
         }
         public async Task Inactive(string username, string room)
         {
-            await Clients.Group(room).SendAsync("InactiveUser", $"{username} has become inactive");
+            await Clients.Group(room).SendAsync("InactiveUser", username);
         }
         //****************************************************
 
