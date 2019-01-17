@@ -45,11 +45,11 @@
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">EdTalk</span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">About</a>
-                <a class="register-link mdl-navigation__link" href="#">Register</a>
-                <a class="login-link mdl-navigation__link" href="#">Login</a>
-                <a class="mdl-navigation__link" href="">Help</a>
-                <a class="mdl-navigation__link" href="chat">Chat</a>
+                <a class="mdl-navigation__link" asp-area="" asp-page="/">About</a>
+                <a class="register-link mdl-navigation__link" asp-area="" asp-page="/">Register</a>
+                <a class="login-link mdl-navigation__link" asp-area="" asp-page="/">Login</a>
+                <a class="mdl-navigation__link" asp-area="" asp-page="/">Help</a>
+                <a class="mdl-navigation__link" asp-area="" asp-page="/chat">Chat</a>
                 <partial name="_LoginPartial" />
             </nav>
         </div>
@@ -140,5 +140,6 @@
                 });
         }());
     </script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
