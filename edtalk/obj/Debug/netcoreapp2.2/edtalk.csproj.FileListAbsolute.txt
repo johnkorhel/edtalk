@@ -1,33 +1,3 @@
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csprojAssemblyReference.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CoreCompileInputs.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorAssemblyInfo.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorAssemblyInfo.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.AssemblyInfoInputs.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.AssemblyInfo.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.deps.json
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.runtimeconfig.json
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.runtimeconfig.dev.json
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.dll
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.pdb
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.Views.dll
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.Views.pdb
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.TagHelpers.input.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.TagHelpers.output.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorCoreGenerate.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Error.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Index.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Privacy.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_CookieConsentPartial.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_Layout.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_ValidationScriptsPartial.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewStart.g.cshtml.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorTargetAssemblyInfo.cache
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.RazorTargetAssemblyInfo.cs
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.Views.pdb
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.dll
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.pdb
-C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CopyComplete
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.deps.json
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.runtimeconfig.json
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/bin/Debug/netcoreapp2.2/edtalk.runtimeconfig.dev.json
@@ -58,3 +28,32 @@ C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.pdb
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CopyComplete
 /home/cameron/Documents/TSA/SoftwareDev/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csprojAssemblyReference.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.deps.json
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.runtimeconfig.json
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.runtimeconfig.dev.json
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.dll
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.pdb
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.Views.dll
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\bin\Debug\netcoreapp2.2\edtalk.Views.pdb
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.csproj.CoreCompileInputs.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.RazorAssemblyInfo.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.RazorAssemblyInfo.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.AssemblyInfoInputs.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.AssemblyInfo.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.TagHelpers.input.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.TagHelpers.output.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.RazorCoreGenerate.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Index.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.RazorTargetAssemblyInfo.cache
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.RazorTargetAssemblyInfo.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.Views.pdb
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.dll
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.pdb
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.csproj.CopyComplete
