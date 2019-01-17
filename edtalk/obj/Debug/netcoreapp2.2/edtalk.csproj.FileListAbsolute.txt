@@ -62,3 +62,5 @@ C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.
 C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.dll
 C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.pdb
 C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\edtalk.csproj.CopyComplete
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout_bak.g.cshtml.cs
+C:\Users\Cameron\Documents\TSA\Software Dev\edtalk\edtalk\obj\Debug\netcoreapp2.2\Razor\Pages\chat.g.cshtml.cs

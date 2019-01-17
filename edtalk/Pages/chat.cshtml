@@ -1,0 +1,17 @@
+﻿@page
+@model edtalk.Pages.chatModel
+@{
+    ViewData["Title"] = "Chat";
+}
+<div class="mdl-grid">
+    <form action="#" class="userChat">
+        <div class="mdl-textfield mdl-js-textfield chatBox">
+            <input class="mdl-textfield__input" autocomplete="off" type="text" id="messageField" required>
+            <label class="mdl-textfield__label" for="messageField">Message</label>
+            <input type="button" id="sendMessageButton" value="Send Message" />
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
