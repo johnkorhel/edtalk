@@ -5361,6 +5361,7 @@
       "sha512": "ex8MZwgoyqHim1L6/65FnfjdSMtSKSuSU3DVoiCADZACc05T7f8uRB7SnDIP5LPQKLUBLilfNkd1p14RLyfdQA==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.2.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5743,6 +5744,7 @@
       "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.rtf",
@@ -5980,6 +5982,7 @@
       "sha512": "wn1ULjQbFadRosiNJE4B65iR5eYL3FkMezH4Tyv8EmdmN5XfCTzIgkk1mQJ1Zcb61Kb3qyZMeGidanwR7h/gug==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/2.2.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -12075,11 +12078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cameron\\Documents\\TSA\\Software Dev\\edtalk\\edtalk\\edtalk.csproj",
+      "projectUniqueName": "C:\\Users\\Cameron\\source\\repos\\edtalk\\edtalk\\edtalk.csproj",
       "projectName": "edtalk",
-      "projectPath": "C:\\Users\\Cameron\\Documents\\TSA\\Software Dev\\edtalk\\edtalk\\edtalk.csproj",
+      "projectPath": "C:\\Users\\Cameron\\source\\repos\\edtalk\\edtalk\\edtalk.csproj",
       "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cameron\\Documents\\TSA\\Software Dev\\edtalk\\edtalk\\obj\\",
+      "outputPath": "C:\\Users\\Cameron\\source\\repos\\edtalk\\edtalk\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
