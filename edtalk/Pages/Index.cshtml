@@ -6,7 +6,7 @@
 <div class="container splash">
     <div class="center-block text-center">
 
-      <h1 class="headerText">edtalk.i<img src="paperclip.png" width="45px"></h1>
+      <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
       <h1 class="subHeaderText">a simple classroom communication platform for the modern student and educator</h1>
       <br>
       <div class="hidden-xs">
@@ -14,19 +14,12 @@
         <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false">Login</button>
         <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
       </div>
-      <div class="btn-group-vertical visible-xs">
-        <button type="button" class="splashBtn btn btnRegister" data-toggle="modal" data-target="#register" data-backdrop="static" data-keyboard="false">Register</button>
-        <button type="button" class="splashBtn btn btnJoin" data-toggle="modal" data-target="#login" data-backdrop="static" data-keyboard="false">Login</button>
-        <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
-      </div>
-      <a class="navbar-brand" asp-area="" asp-page="/chat">edtalk</a>
-
     </div>
 
   </div>
   <!-- Register -->
   <div class="modal introModal animated fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
-    <img class="exitIcon animated fadeIn close" data-dismiss="modal" src="exit.svg">
+      <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
     <div class="modal-dialog" role="document">
       <div class="modal-content introModalContent splashBtn">
         <div class="modal-body">
@@ -38,6 +31,14 @@
             <div class="form-group">
               <label for="ln">Last Name</label>
               <input type="text" class="form-control" id="lastName" placeholder="Smith">
+            </div>
+            <div class="form-group">
+                <label for="stued">I am a...</label>
+                <br>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                    <option selected="selected" value="0">Student</option>
+                    <option value="1">Educator</option>
+                </select>
             </div>
             <div class="form-group">
               <label for="school">School</label>
@@ -61,13 +62,6 @@
               <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirm password">
             </div>
             <div class="form-group">
-              <label for="stued">I am a...</label>
-              <br>
-              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
-                <option selected="selected" value="0">Student</option>
-                <option value="1">Educator</option>
-              </select>
-              <br><br>
               <button type="button" class="btn btn-block btnRegister splashBtn">Register</button>
             </div>
         </div>
@@ -79,7 +73,7 @@
 
   <!-- Login -->
   <div class="modal animated fade introModal" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-    <img class="exitIcon animated fadeIn close" data-dismiss="modal" src="exit.svg">
+    <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
     <div class="modal-dialog" role="document">
       <div class="modal-content introModalContent splashBtn">
 

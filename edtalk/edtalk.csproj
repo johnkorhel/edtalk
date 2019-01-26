@@ -14,4 +14,43 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\images\android-desktop.png" />
+    <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\fav\android-chrome-192x192.png" />
+    <Content Remove="wwwroot\fav\android-chrome-512x512.png" />
+    <Content Remove="wwwroot\fav\apple-touch-icon.png" />
+    <Content Remove="wwwroot\fav\browserconfig.xml" />
+    <Content Remove="wwwroot\fav\favicon-16x16.png" />
+    <Content Remove="wwwroot\fav\favicon-32x32.png" />
+    <Content Remove="wwwroot\fav\favicon.ico" />
+    <Content Remove="wwwroot\fav\mstile-70x70.png" />
+    <Content Remove="wwwroot\fav\mstile-144x144.png" />
+    <Content Remove="wwwroot\fav\mstile-150x150.png" />
+    <Content Remove="wwwroot\fav\mstile-310x150.png" />
+    <Content Remove="wwwroot\fav\mstile-310x310.png" />
+    <Content Remove="wwwroot\fav\safari-pinned-tab.svg" />
+    <Content Remove="wwwroot\fav\site.webmanifest" />
+    <Content Remove="wwwroot\images\cross-out.svg" />
+    <Content Remove="wwwroot\images\exitIcon.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\fav\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\fav\android-chrome-192x192.png" />
+    <None Include="wwwroot\fav\android-chrome-512x512.png" />
+    <None Include="wwwroot\fav\apple-touch-icon.png" />
+    <None Include="wwwroot\fav\browserconfig.xml" />
+    <None Include="wwwroot\fav\favicon-16x16.png" />
+    <None Include="wwwroot\fav\favicon-32x32.png" />
+    <None Include="wwwroot\fav\favicon.ico" />
+    <None Include="wwwroot\fav\mstile-70x70.png" />
+    <None Include="wwwroot\fav\mstile-144x144.png" />
+    <None Include="wwwroot\fav\mstile-150x150.png" />
+    <None Include="wwwroot\fav\mstile-310x150.png" />
+    <None Include="wwwroot\fav\mstile-310x310.png" />
+    <None Include="wwwroot\fav\safari-pinned-tab.svg" />
+    <None Include="wwwroot\fav\site.webmanifest" />
+  </ItemGroup>
 </Project>

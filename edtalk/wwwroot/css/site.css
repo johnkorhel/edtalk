@@ -1,11 +1,13 @@
 ﻿.headerText {
-    font-family: Abel;
-    font-size: 100px;
+    font-family: Open Sans;
+    font-size: 90px;
+    font-weight: 300;
 }
 
 .subHeaderText {
-    font-family: Abel;
+    font-family: Open Sans;
     font-size: 30px;
+    font-weight: 300;
 }
 
 .btnRegister {
@@ -193,9 +195,10 @@ hr {
 .chatTitle{
   margin-bottom: 20px;
 }
-.splashBtn{
-  font-family: 'Open Sans';
-  font-size: 20px;
+.splashBtn {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 300;
 }
 .chatButton{
   font-size: 15px;
@@ -222,6 +225,6 @@ hr {
     position: absolute;
     width: 25px;
     height: 25px;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 }
