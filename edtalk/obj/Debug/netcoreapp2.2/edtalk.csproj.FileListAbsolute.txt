@@ -98,3 +98,4 @@ C:/Users/Cameron/Documents/TSA/Software Dev/edtalk/edtalk/obj/Debug/netcoreapp2.
 /Users/jojkorhel/Desktop/Programming/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.dll
 /Users/jojkorhel/Desktop/Programming/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.pdb
 /Users/jojkorhel/Desktop/Programming/edtalk/edtalk/obj/Debug/netcoreapp2.2/edtalk.csproj.CopyComplete
+/Users/jojkorhel/Desktop/Programming/edtalk/edtalk/obj/Debug/netcoreapp2.2/Razor/Pages/userLogged.g.cshtml.cs

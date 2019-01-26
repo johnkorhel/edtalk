@@ -38,6 +38,9 @@
     <Folder Include="wwwroot\fav\" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="VSColorThemes.vsix" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="wwwroot\fav\android-chrome-192x192.png" />
     <None Include="wwwroot\fav\android-chrome-512x512.png" />
     <None Include="wwwroot\fav\apple-touch-icon.png" />

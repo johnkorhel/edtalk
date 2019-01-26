@@ -19,7 +19,6 @@
     color: white;
     background-color: #FF5A5F;
 }
-
 .btnTeacher {
     color: white;
     background-color: #3C3C3C;
@@ -49,7 +48,17 @@
     display: flex;
     align-items: center;
 }
-
+.splashLogged {
+    min-height: 90%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh;
+    /* These two lines are counted as one :-)       */
+    display: block;
+    align-items: center;
+}
+.userCard{
+    margin-bottom: 10%;
+}
 *:focus {
     outline: none
 }
@@ -227,4 +236,20 @@ hr {
     height: 25px;
     top: 20px;
     right: 20px;
+}
+.userJoinBtn {
+
+    background-color: #FF5A5F;
+}
+.userCreateBtn {
+
+    background-color: #087E8B;
+}
+.userDiscussionsBtn {
+
+    background-color: #F2B485;
+}
+.userSettingsBtn {
+
+    background-color: #3C3C3C !important;
 }
