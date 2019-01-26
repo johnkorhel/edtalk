@@ -51,7 +51,7 @@
 .splashLogged {
     min-height: 90%;
     /* Fallback for browsers do NOT support vh unit */
-    min-height: 90vh;
+    min-height: 80vh;
     /* These two lines are counted as one :-)       */
     display: block;
     align-items: center;
