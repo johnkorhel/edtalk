@@ -237,19 +237,6 @@ hr {
     top: 20px;
     right: 20px;
 }
-.userJoinBtn {
-
-    background-color: #FF5A5F;
-}
-.userCreateBtn {
-
-    background-color: #087E8B;
-}
-.userDiscussionsBtn {
-
-    background-color: #F2B485;
-}
-.userSettingsBtn {
-
-    background-color: #3C3C3C !important;
+.btn{
+    font-family: Open Sans;
 }
