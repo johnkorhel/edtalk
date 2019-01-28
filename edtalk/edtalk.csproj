@@ -33,6 +33,10 @@
     <Content Remove="wwwroot\fav\site.webmanifest" />
     <Content Remove="wwwroot\images\cross-out.svg" />
     <Content Remove="wwwroot\images\exitIcon.svg" />
+    <Content Remove="wwwroot\images\user.svg" />
+    <Content Remove="wwwroot\fav\kirby.png" />
+    <Content Remove="wwwroot\images\kirby.png" />
+    <Content Remove="wwwroot\images\yosh.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\fav\" />
@@ -55,5 +59,8 @@
     <None Include="wwwroot\fav\mstile-310x310.png" />
     <None Include="wwwroot\fav\safari-pinned-tab.svg" />
     <None Include="wwwroot\fav\site.webmanifest" />
+    <None Include="wwwroot\images\user.svg" />
+    <None Include="wwwroot\images\kirby.png" />
+    <None Include="wwwroot\images\yosh.png" />
   </ItemGroup>
 </Project>

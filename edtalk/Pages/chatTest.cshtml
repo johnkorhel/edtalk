@@ -1,0 +1,42 @@
+﻿@page
+@model edtalk.Pages.IndexModel
+@{
+    ViewData["Title"] = "Discussion";
+}
+
+
+<header class="page-header">
+    <div class="container ">
+        <h2 class="roomID">Discussion ID #</h2>
+    </div>
+</header>
+<div class="main">
+    <div class="container ">
+        <div class="chat-log">
+            <div class="chat-log__item">
+                <p class="chat"><img class="rounded-circle userPicture" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" /><span class="userProfile">Mareooo</span><span class="userMessage"> This is a test discussion message. Hello, edTalk!</span></p>
+            </div>
+            <div class="chat-log__item">
+                <p class="chat"><img class="rounded-circle userPicture" src="~/images/kirby.png" /><span class="userProfile">Kirbeeee</span><span class="userMessage"> Awesome, this is so exciting!</span></p>
+            </div>
+            <div class="chat-log__item">
+                <p class="chat"><img class="rounded-circle userPicture" src="~/images/yosh.png" /><span class="userProfile">YoshBoi</span><span class="userMessage"> I absolutely love this platform!</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-form">
+        <div class="container ">
+            <form class="form-horizontal">
+                <div class="row">
+                    <div class="col-sm-10 col-xs-8">
+                        <input type="text" class="form-control" id="" placeholder="Message" />
+                    </div>
+                    <div class="col-sm-2 col-xs-4">
+                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

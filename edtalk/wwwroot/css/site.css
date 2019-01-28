@@ -1,6 +1,6 @@
 ﻿.headerText {
     font-family: Open Sans;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 300;
 }
 
@@ -239,4 +239,20 @@ hr {
 }
 .btn{
     font-family: Open Sans;
+}
+.splashImg {
+    min-width: 50px;
+    max-width: 50px;
+}
+.userProfile{
+    font-weight: 400;
+    font-size: 20px;
+}
+.userMessage {
+    font-weight: 300;
+    font-size: 18px;
+}
+.userPicture{
+    width: 35px;
+    margin-right: 5px;
 }
