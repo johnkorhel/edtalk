@@ -256,3 +256,8 @@ hr {
     width: 35px;
     margin-right: 5px;
 }
+@media (max-width: 576px) {
+    .chatBtn{
+        margin-top: 10px;
+    }
+}
