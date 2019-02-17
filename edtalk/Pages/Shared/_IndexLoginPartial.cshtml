@@ -4,10 +4,124 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-<button type="button" class="splashBtn btn btnRegister" data-backdrop="static" data-keyboard="false"><a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a></button>
+    <div class="container splashLogged">
+        <div class="text-center">
+
+            <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
+            <h1 class="subHeaderText">welcome, @User.Identity.Name!.</h1>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card userCard">
+                    <div class="card-body">
+                        <h5 class="card-title">Start a Discussion</h5>
+                        <p class="card-text">Create your own discussion with a unique room ID.</p>
+                        <a href="#" data-toggle="modal" data-target="#create" data-backdrop="static" data-keyboard="false" class="btn btn-primary">Create</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card userCard">
+                    <div class="card-body">
+                        <h5 class="card-title">Join a Discussion</h5>
+                        <p class="card-text">Join a discussion with someone else's room ID</p>
+                        <a href="#" data-toggle="modal" data-target="#join" data-backdrop="static" data-keyboard="false" class="btn btn-primary">Join</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card userCard">
+                    <div class="card-body">
+                        <h5 class="card-title">My Discussions</h5>
+                        <p class="card-text">View logs of past discussions.</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card userCard">
+                    <div class="card-body">
+                        <h5 class="card-title">User Settings</h5>
+                        <p class="card-text">Customize username, themes, profile picture, and much more!</p>
+                        <a href="#" class="btn btn-primary"><a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Settings</a></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="card userCard">
+                    <div class="card-body">
+                        <h5 class="card-title">Help</h5>
+                        <p class="card-text">Any problems with your experience? Want to report a problem?</p>
+                        <a href="#" class="btn btn-primary">Get Help</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- Join -->
+    <div class="modal animated fade introModal" id="join" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content introModalContent splashBtn">
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Room ID</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
+                            <br />
+                            <button type="button" class="btn btn-block btn-primary">Join Room</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Join -->
+    <div class="modal animated fade introModal" id="create" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content introModalContent splashBtn">
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Room ID</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Maximum Users</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter maximum users">
+                            <br />
+                            <button type="button" class="btn btn-block btn-primary">Create Room</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
 }
 else
 {
-<button type="button" class="splashBtn btn btnRegister" data-backdrop="static" data-keyboard="false"><a style="text-decoration:none;color:#FFFFFF;" asp-area="Identity" asp-page="/Account/Register">Register</a></button>
-<button type="button" class="splashBtn btn btnJoin" data-backdrop="static" data-keyboard="false"><a style="text-decoration:none;color:#FFFFFF;" asp-area="Identity" asp-page="/Account/Login">Login</a></button>
+    <div class="container splash">
+        <div class="center-block text-center">
+
+            <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
+            <h1 class="subHeaderText">a simple classroom communication platform for the modern student and educator</h1>
+            <br>
+            <div class="hidden-xs">
+                <button type="button" class="splashBtn btn btnRegister" data-backdrop="static" data-keyboard="false"><a style="text-decoration:none;color:#FFFFFF;" asp-area="Identity" asp-page="/Account/Register">Register</a></button>
+                <button type="button" class="splashBtn btn btnJoin" data-backdrop="static" data-keyboard="false"><a style="text-decoration:none;color:#FFFFFF;" asp-area="Identity" asp-page="/Account/Login">Login</a></button>
+                <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
+            </div>
+        </div>
+    </div>
 }
