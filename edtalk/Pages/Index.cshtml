@@ -20,16 +20,15 @@
                     @if (SignInManager.IsSignedIn(User))
                     {
                         <a class="splashBtn btn btnJoin" href="/userLogged">Dashboard</a>
-                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/index")" method="post">
-                            <button type="submit" class="splashBtn btn btnRegister">Logout</button>
-                        </form>
+                        <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
                     }
                     else
                     {
                         <a class="splashBtn btn btnRegister" asp-area="Identity" asp-page="/Account/Register">Register</a>
                         <a class="splashBtn btn btnJoin" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                        <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
                     }
-                    <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
+
                 </div>
             </div>
         </div>

@@ -10,13 +10,13 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <div class="container splashLogged">
-        <div class="text-center">
+    <style>
+        .splashLogged{
+            padding-top: 60px;
+        }
 
-            <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
-            <h1 class="subHeaderText">welcome, @User.Identity.Name!</h1>
-        </div>
-        <br>
+    </style>
+    <div class="container splashLogged">
         <div class="row">
             <div class="col-sm-6">
                 <div class="card userCard">
