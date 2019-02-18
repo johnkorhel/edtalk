@@ -3,8 +3,35 @@
 @{
     ViewData["Title"] = "Home";
 }
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
 <div class="container splash">
     <div class="center-block text-center">
-        <partial name="_IndexLoginPartial" />
+        <div class="container splash">
+            <div class="center-block text-center">
+
+                <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
+                <h1 class="subHeaderText">a simple classroom communication platform for the modern student and educator</h1>
+                <br>
+                <div class="hidden-xs">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a class="splashBtn btn btnJoin" href="/userLogged">Dashboard</a>
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/index")" method="post">
+                            <button type="submit" class="splashBtn btn btnRegister">Logout</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a class="splashBtn btn btnRegister" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                        <a class="splashBtn btn btnJoin" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                    }
+                    <button type="button" class="splashBtn btn btnHelp" onclick="document.location.href='chat';" data-backdrop="static" data-keyboard="false">Help</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

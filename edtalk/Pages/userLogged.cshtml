@@ -3,11 +3,18 @@
 @{
     ViewData["Title"] = "Welcome";
 }
-<div class="container splashLogged">
-    <div class="text-center">
 
-        <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
-        <h1 class="subHeaderText">welcome, username.</h1>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="container splashLogged">
+        <div class="text-center">
+
+            <h1 class="headerText">edtalk.i<img class="splashImg" src="~/images/paperclip.svg" width="65px"></h1>
+            <h1 class="subHeaderText">welcome, @User.Identity.Name!</h1>
         </div>
         <br>
         <div class="row">
@@ -43,7 +50,7 @@
                     <div class="card-body">
                         <h5 class="card-title">User Settings</h5>
                         <p class="card-text">Customize username, themes, profile picture, and much more!</p>
-                        <a href="#" class="btn btn-primary">Settings</a>
+                        <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Settings</a>
                     </div>
                 </div>
             </div>
@@ -61,50 +68,54 @@
         </div>
 
 
-</div>
-<!-- Join -->
-<div class="modal animated fade introModal" id="join" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-    <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
-    <div class="modal-dialog" role="document">
-        <div class="modal-content introModalContent splashBtn">
+    </div>
+    <!-- Join -->
+    <div class="modal animated fade introModal" id="join" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content introModalContent splashBtn">
 
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Room ID</label>
-                        <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
-                        <br />
-                        <button type="button" class="btn btn-block btn-primary">Join Room</button>
-                    </div>
-                </form>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Room ID</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
+                            <br />
+                            <button type="button" class="btn btn-block btn-primary">Join Room</button>
+                        </div>
+                    </form>
+                </div>
+
             </div>
-
         </div>
     </div>
-</div>
 
-<!-- Join -->
-<div class="modal animated fade introModal" id="create" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-    <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
-    <div class="modal-dialog" role="document">
-        <div class="modal-content introModalContent splashBtn">
+    <!-- Join -->
+    <div class="modal animated fade introModal" id="create" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <a href="#"><img class="exitIcon animated fadeIn close" data-dismiss="modal" src="~/images/exitIcon.svg"></a>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content introModalContent splashBtn">
 
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Room ID</label>
-                        <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Maximum Users</label>
-                        <input type="text" class="form-control" id="joinRoom" placeholder="Enter maximum users">
-                        <br />
-                        <button type="button" class="btn btn-block btn-primary">Create Room</button>
-                    </div>
-                </form>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Room ID</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter the room ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Maximum Users</label>
+                            <input type="text" class="form-control" id="joinRoom" placeholder="Enter maximum users">
+                            <br />
+                            <button type="button" class="btn btn-block btn-primary">Create Room</button>
+                        </div>
+                    </form>
+                </div>
+
             </div>
-
         </div>
     </div>
-</div>
-  </div>
+}
+else
+{
+    <meta http-equiv="refresh" content="0; url=/">
+}
